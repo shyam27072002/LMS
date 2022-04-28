@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+
+}
+.App-headtitle{
+  font-size: 45px;
+  
+  font-family: Copperplate, Papyrus, fantasy;
+}
+.App-decription{
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .App-logo {
@@ -27,6 +44,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
